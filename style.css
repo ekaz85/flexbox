@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+  }
+  
+  .header {
+    height: 20%;
+     background-color: lightgray;
+  }
+  .wrap {
+    display: flex;
+    height: 60%;
+  }
+  .article {
+  /*   flex-grow: 3; 
+    flex-basis: 100%; */
+    flex: 0 1 70%;
+    background-color: cyan;
+  }
+  .aside {
+  /*   flex-grow: 1;
+    flex-basis: 100%; */
+    flex: 0 1 20%;
+    background-color: pink;
+  }
+  .nav {
+  /*   flex-grow: 1;
+    flex-basis: 100%; */
+    flex: 0 1 20%;
+    background-color: orange;
+  }
+  
+  .footer {
+    height: 20%;
+     background-color: lightgray;
+  }
+  /* 
+  .parent {
+    display: flex;
+    height: 100%;
+  }
+  .child-active {
+    flex-grow: 1;
+  } */
